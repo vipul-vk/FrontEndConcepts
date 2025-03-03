@@ -3,7 +3,7 @@ import HookMouse from './HookMouse';
 
 function MouseContainer() {
 
-    const [display, setsffDisplay]= useState(true);
+    const [display, setDisplay]= useState(true);
   return (
     <div>
         <h1>MouseContainer</h1>

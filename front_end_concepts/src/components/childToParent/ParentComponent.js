@@ -20,7 +20,7 @@ class ParentComponent extends Component {
     render() {
         return (
             <div>
-                <h1>Methods as props</h1>
+                <h1>Methods as props/Passing value from Child to Parent</h1>
                 <ChildComponent greetHandler= {this.greetParent}/>
             </div>
         )
